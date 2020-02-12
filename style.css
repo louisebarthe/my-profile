@@ -1,0 +1,115 @@
+body{
+	background-color: #EBF5EE;
+	color: #272838;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #EB9486;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2{
+	color: #272838;
+	font-weight: lighter;
+    font-weight: 350;
+    font-size: 20px;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #EB9486;
+	font-weight: 400;
+	font-size: 18px;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: #F3DE8A;
+}
+
+
+/* Custom design with class (99%) */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color : white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #EB9486;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #F3DE8A;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+
+/* Design adjustments using id (1%) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
